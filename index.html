@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <title>Game of Thrones Board Game</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-light bg-transparent justify-content-center ">
+    <a class="navbar-brand" href="">
+      <img src="./images/logo.png" width="140" height="" alt="">
+    </a>
+  </nav>
+
+  <section class="welcome col-lg text-center">
+    <h1>Welcome to Game of Thrones board game!</h1>
+    <p>To start playing this game you need to choose two characters. You can decide on a character
+      by looking at the
+      houses they represent. You will represent player one, but will have the possibility to choose the character
+      you want to fight
+    </p>
+  </section>
+
+
+  <div class="players">
+    <div class="row">
+      <div class="col">
+        <h3 id="player-1-name"></h3>
+        <img id="player-1-image" style="height: 150px;" src="" alt="">
+      </div>
+      <div id="message" class="col">
+
+      </div>
+      <div class="col">
+        <h3 id="player-2-name"></h3>
+        <img id="player-2-image" style="height: 150px;" src="" alt="">
+      </div>
+    </div>
+
+    <section id="cards">
+      <div class="row">
+        <div class="col-sm">
+          <div class="">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <img class="card-img-top" src="./images/tokens/lanister.png" alt="">
+              <p class="gender"></p>
+              <a href="#" class="btn btn-dark">choose</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class=>
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <img class="card-img-top" src="./images/tokens/greyjoy.png" alt="">
+              <p class="gender"></p>
+              <a href="#" class="btn btn-dark">choose</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class=>
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <img class="card-img-top" src="./images/tokens/targarian.png" alt="">
+              <p class="gender"></p>
+              <a href="#" class="btn btn-dark">choose</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class=>
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <img class="card-img-top" src="./images/tokens/tyrell.png" alt="">
+              <p class="gender"></p>
+              <a href="#" class="btn btn-dark">choose</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class=>
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <img class="card-img-top" src="./images/tokens/stark.png" alt="">
+              <p class="gender"></p>
+              <a href="#" class="btn btn-dark">choose</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <div class=>
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <img class="card-img-top" src="./images/tokens/targarian.png" alt="">
+              <p class="gender"></p>
+              <a href="#" class="btn btn-dark">choose</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class=>
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <img class="card-img-top" src="./images/tokens/stark.png" alt="">
+              <p class="gender"></p>
+              <a href="#" class="btn btn-dark">choose</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class=>
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <img class="card-img-top" src="./images/tokens/tyrell.png" alt="">
+              <p class="gender"></p>
+              <a href="#" class="btn btn-dark">choose</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class=>
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <img class="card-img-top" src="./images/tokens/greyjoy.png" alt="">
+              <p class="gender"></p>
+              <a href="#" class="btn btn-dark">choose</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class=>
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <img class="card-img-top" src="./images/tokens/lanister.png" alt="">
+              <p class="gender"></p>
+              <a href="#" class="btn btn-dark">choose</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./script/cards.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>

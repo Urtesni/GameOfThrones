@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"
+  >
+  <title>Game of Thrones Board Game</title>
+</head>
+
+<body>
+<nav class="navbar navbar-light bg-transparent justify-content-center">
+  <a class="navbar-brand" href="">
+    <img src="../images/logo.png" width="140" height="" alt="">
+  </a>
+</nav>
+
+<div class="container text-center" style="margin-bottom: 100px">
+  <div class="row">
+    <div class="col">
+      <h3 id="player-1-name"></h3>
+      <img id="player-1-image" style="height: 150px;" src="" alt="">
+    </div>
+    <div id="message" class="col">
+
+    </div>
+    <div class="col">
+      <h3 id="player-2-name"></h3>
+      <img id="player-2-image" style="height: 150px;" src="" alt="">
+    </div>
+  </div>
+  <button id="rollDiceBtn" type="button" class="btn btn-dark btn-lg">Roll Dice</button>
+</div>
+
+
+<section class="board">
+  <div class="container text-center">
+    <div class="row">
+      <div id="T-1" class="col-2 border border-dark rounded-circle">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          1
+        </div>
+      </div>
+      <div id="T-2" class="col-2 border border-dark rounded-circle">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          2
+        </div>
+      </div>
+      <div id="T-3" class="col-2 border border-dark rounded-circle">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          3
+        </div>
+      </div>
+      <div id="T-4" class="col-2 border border-dark rounded-circle">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          4
+        </div>
+      </div>
+      <div id="T-5" class="col-2 border border-dark rounded-circle">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          5
+        </div>
+      </div>
+      <div id="T-6" class="col-2 border border-dark rounded-circle">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          6
+        </div>
+      </div>
+      <div id="T-7" class="col-2 border border-dark rounded-circle">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          7
+        </div>
+      </div>
+      <div id="T-8" class="col-2 border border-dark rounded-circle">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          8
+        </div>
+      </div>
+      <div id="T-9" class="col-2 border border-dark rounded-circle">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          9
+        </div>
+      </div>
+      <div id="T-10" class="col-2 border border-dark rounded-circle">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          10
+        </div>
+      </div>
+      <div id="T-11" class="col-2 border border-dark rounded-circle">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          11
+        </div>
+      </div>
+      <div id="T-12" class="col-2 border border-dark rounded-circle">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          12
+        </div>
+      </div>
+      <div id="T-13" class="col-2 border border-dark rounded-circle">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          13
+        </div>
+      </div>
+      <div id="T-14" class="col-2 border border-dark rounded-circle">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          14
+        </div>
+      </div>
+      <div id="T-15" class="col-2 border border-dark rounded-circle">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          15
+        </div>
+      </div>
+      <div id="T-16" class="col-2 border border-dark rounded-circle">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          16
+        </div>
+      </div>
+      <div id="T-17" class="col-2 border border-dark rounded-circle">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          17
+        </div>
+      </div>
+      <div id="T-18" class="col-2 border border-dark rounded-circle">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          18
+        </div>
+      </div>
+      <div id="T-19" class="col-2 border border-dark rounded-circle ">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          19
+        </div>
+      </div>
+      <div id="T-20" class="col-2 border border-dark rounded-circle">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          20
+        </div>
+      </div>
+      <div id="T-21" class="col-2 border border-dark rounded-circle">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          21
+        </div>
+      </div>
+      <div id="T-22" class="col-2 border border-dark rounded-circle">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          22
+        </div>
+      </div>
+      <div id="T-23" class="col-2 border border-dark rounded-circle">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          23
+        </div>
+      </div>
+      <div id="T-24" class="col-2 border border-dark rounded-circle">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          24
+        </div>
+      </div>
+      <div id="T-25" class="col-2 border border-dark rounded-circle">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          25
+        </div>
+      </div>
+      <div id="T-26" class="col-2 border border-dark rounded-circle">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          26
+        </div>
+      </div>
+      <div id="T-27" class="col-2 border border-dark rounded-circle">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          27
+        </div>
+      </div>
+      <div id="T-28" class="col-2 border border-dark rounded-circle">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          28
+        </div>
+      </div>
+      <div id="T-29" class="col-2 border border-dark rounded-circle">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          29
+        </div>
+      </div>
+      <div id="T-30" class="col-2 border border-dark rounded-circle">
+        <div class="token-holder">
+
+        </div>
+        <div class="tile-number">
+          30
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<script src="../script/board.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"
+></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"
+></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"
+></script>
+</body>
+
+</html>

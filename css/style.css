@@ -1,0 +1,42 @@
+body {
+    background: url(../images/backgroundRed.png) no-repeat center center fixed;
+    background-size: cover;
+    line-height: 1.6;
+    text-align: center;
+    width: 100%;
+    font-family: 'Cinzel Decorative', cursive!important;
+}
+
+.players {
+    text-align: center;
+    padding: 20px;
+    bottom: 40px;
+}
+
+.player {
+    text-transform: uppercase;
+}
+
+.rounded-circle {
+    background-color: #ff001814;
+    margin: 1%;
+    height: 160px
+}
+
+.token-holder img {
+    height: 75px;
+    margin-top: 40px;
+}
+
+.youWin{
+    margin-top: 150px;
+}
+
+.tile-number {
+font-size: xxx-large;
+margin-top: 20%;
+}
+
+#winner-text {
+    font-size: xxx-large;
+}
